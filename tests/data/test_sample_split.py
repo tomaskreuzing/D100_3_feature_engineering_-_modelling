@@ -36,4 +36,3 @@ def test_sample_split(training_frac):
     training_fraction = len(train_df)/ (len(train_df) + len(test_df))
 
     assert  lower_bound <= training_fraction <= upper_bound, f"length of training set is not within 5% of training_frac"
-

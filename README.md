@@ -1,9 +1,2 @@
-# Problem Set 3: Claims modelling exercise
-
-```
-mamba env create
-conda activate ps3
-
-pre-commit install
-pip install --no-build-isolation -e .
-```
+## Feature engineering
+Coursework consisting of generated train/test splits reproducible between different models, writing scikit-learn compatible transformer and refining an insurance predictive model. Finalised within D100 Fundamentals of Data Science at the University of Cambridge
